@@ -50,7 +50,7 @@ def main():
         with open(bank_file, 'w') as f:
             f.write('0\n')
 
-    display_balance()#poes
+    display_balance()
 
     make_transaction = is_valid_input('Would you like to make a transaction? (Yes/No):\n', ['Yes', 'No'])
 
